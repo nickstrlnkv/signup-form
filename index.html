@@ -12,25 +12,39 @@
     <title>Sign-up form</title>
 </head>
 <body>
-    <div class="left-side">
-        <div class="left-side--background-placeholder">
-            <div class="left-side--background-placeholder--logo-img">
-                <img src="./imgs/odin-logo.png" alt="The Odin Project company logo" width="95px" height="127px">
-                <span class="odin-text">ODIN</span>
+    <main>
+        <div class="left-side">
+            <div class="left-side--background-placeholder">
+                <div class="left-side--background-placeholder--logo-img">
+                    <img src="./imgs/odin-logo.png" alt="The Odin Project company logo" width="95px" height="127px">
+                    <span class="odin-text">ODIN</span>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="right-side">
-        <div class="right-side--information-text">
-            
-        </div>
-        <form action="">
+        <div class="right-side">
+            <div class="right-side--information-text">
+                <p class="right-side--information-text--main-text">This is not real online service! You know you need something<br> like this in your life to help you realize your deepest dreams.<br>Sign up <i>now</i> to get started.</p>
+                <p class="right-side--information-text--another-text">You  <i>know</i> you want to.</p>
+                
+            </div>
+            <form action="" class="right-side--form">
+                <caption>Let's do this!</caption>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name">
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="user_tel">Phone Number</label>
+                <input type="tel" name="user_tel" id="user_tel">
+                <label for="user_password">Password</label>
+                <input type="password" name="user_password" id="user_password">
+                <label for="user_confirm_password">Confirm Password</label>
+                <input type="password" name="user_confirm_password" id="user_confirm_password">
 
-        </form>
-        <button type="submit">Create Account</button>
-        <div class="right-side--acount-text">Already have an account?
-            <a href="http://">Log in</a>
+            </form>
+            </div>
         </div>
-    </div>
+    </main>
 </body>
 </html>

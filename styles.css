@@ -7,6 +7,13 @@
     background-color: #f9fafb;
 }
 
+main {
+    display: inline-flex;
+}
+
+.left-side {
+    width: 480px;
+}
 .left-side--background-placeholder {
     display: flex;
     justify-content: center;
@@ -33,4 +40,22 @@
 .odin-text {
     display: flex;
     align-items: center;
+}
+
+.right-side {
+    display: flex;
+    width: 75vw;
+    margin-top: 150px;
+    margin-left: 40px;
+    flex-direction: column;
+
+}
+
+.right-side--information-text {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.right-side--form {
+    background-color: white;
 }

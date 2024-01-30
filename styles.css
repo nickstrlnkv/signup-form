@@ -12,7 +12,7 @@ main {
 }
 
 .left-side {
-    width: 480px;
+    /* width: 480px; */
 }
 .left-side--background-placeholder {
     display: flex;
@@ -45,17 +45,66 @@ main {
 .right-side {
     display: flex;
     width: 75vw;
-    margin-top: 150px;
-    margin-left: 40px;
     flex-direction: column;
 
 }
 
 .right-side--information-text {
+    margin-top: 150px;
+    margin-left: 40px;
     font-weight: bold;
     font-size: 1.5rem;
 }
 
 .right-side--form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-color: white;
+    padding: 0;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 0px 9px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 9px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 9px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-right: 50px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 0.7rem;  /* Adjust label font size */
+    color: #1f2937;
+}
+
+input {
+    padding: 3px;  /* Add padding for better input field styling */
+    margin-top: 5px;  /* Add margin for better spacing between label and input */
+    width: 15rem;
+    border-color: #e5e7eb;
+    border-radius: 4px;
+    border-style: solid;
+}
+
+
+.right-side--form--caption-text {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 20px 0px 20px 0px;
+    color: #1f2937;
+}
+
+.first-name-last-name, .email-phone-number, .password-confirm-password {
+    display: flex;
+}
+
+.blue-input:focus {
+    border-color: #1d4ed8;
+    outline: none;
 }

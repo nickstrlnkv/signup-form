@@ -50,7 +50,7 @@ main {
 }
 
 .right-side--information-text {
-    margin-top: 150px;
+    margin-top: 100px;
     margin-left: 40px;
     font-weight: bold;
     font-size: 1.5rem;
@@ -89,6 +89,8 @@ input {
     border-color: #e5e7eb;
     border-radius: 4px;
     border-style: solid;
+    font-size: 15px;
+    padding-left: 7px;
 }
 
 
@@ -107,4 +109,53 @@ input {
 .blue-input:focus {
     border-color: #1d4ed8;
     outline: none;
+    -webkit-box-shadow: 3px 7px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 3px 7px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 3px 7px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.red-input:focus {
+    border-color: #b91c1c;
+    outline: none;
+    -webkit-box-shadow: 3px 7px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 3px 7px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 3px 7px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.red-input:invalid {
+    border-color: #b91c1c;
+    outline: none;
+}
+
+.create-account-button {
+    width: 180px;
+    height: 50px;
+    background-color: #596d48;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border-color: #596d48;
+    border-style: solid;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 7px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 3px 7px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 3px 7px 8px 0px rgba(34, 60, 80, 0.2);
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.create-account-button:active {
+    background-color: #435236;
+    border-color: #435236;
+}
+
+.already-have-account {
+    margin-left: 40px;
+    font-size: 1rem;
+}
+
+a {
+    color: #596d48;
+    font-weight: bold;
+    text-decoration: none;
 }

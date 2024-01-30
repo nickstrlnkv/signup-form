@@ -54,15 +54,17 @@
                 <div class="password-confirm-password">
                     <div class="form-group">
                         <label for="user_password">PASSWORD</label>
-                        <input type="password" name="user_password" id="user_password">
+                        <input class="red-input" type="password" name="user_password" id="user_password" minlength="15">
                     </div>
                 
                     <div class="form-group">
                         <label for="user_confirm_password">CONFIRM PASSWORD</label>
-                        <input type="password" name="user_confirm_password" id="user_confirm_password">
+                        <input class="red-input" type="password" name="user_confirm_password" id="user_confirm_password" minlength="15">
                     </div>
                 </div>
             </form>            
+            <button class="create-account-button" type="submit">Create Account</button>
+            <p class="already-have-account">Already have an account? <a href="index.html">Log in</a></p>
         </div>
     </main>
 </body>
